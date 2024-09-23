@@ -1,0 +1,57 @@
+main .mainColumn {
+        width: 40%;
+        float: left;
+        height: 100%;
+        min-height: 100%;  
+        text-align: center; 
+        padding: 5%;
+    }
+    
+
+header{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+    
+}
+
+p{
+    font-size: large;
+}
+
+body{
+    background-image: url("yHHL07C.jpg");
+    background-size: cover; 
+    color: white;
+    background-position: center;
+    
+}
+
+img{
+    width: 50%;
+    height: auto;
+}
+
+nav ul{
+display: grid;
+grid-template-columns: auto auto auto auto;
+}
+
+nav li{
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+    font-size:24px;
+}
+.navsection{
+    display: block;
+    background-image: linear-gradient(to bottom right, purple);
+
+}
+
+.navbar{
+    background: linear-gradient(to right, #a77a93, #a783a1);
+}
+
